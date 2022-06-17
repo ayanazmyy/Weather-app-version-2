@@ -1,0 +1,122 @@
+body {
+    overflow-x: hidden;
+}
+
+/* =================== slider section ==================== */
+
+.slider {
+    background-image: url(../imgs/shutterstock_114802408-825x465.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+.left-arrow, .right-arrow {
+    color: #eee;
+    position: absolute;
+    cursor: pointer;
+}
+
+.left-arrow {
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+
+.right-arrow {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+
+.slider-content .container {
+    color: white;
+}
+
+.slider-content .temperature h1 {
+    font-size: 50px;
+}
+
+.slider-content .city h2 {
+    font-size: 30px;
+}
+
+.main-temperature {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-temperature h1 {
+    font-size: 80px;
+}
+
+.main-temperature p {
+    font-size: 22px;
+}
+
+/* ======================== side-bar section ================== */
+
+.side-bar {
+    background-color: rgb(79, 116, 160) /*rgb(201, 141, 181)*/;
+    color: white;
+    min-height: 100vh;
+}
+
+.search-input,
+.message-input,
+.subscribe-input {
+    margin-top: 20px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    
+}
+
+.search-input::placeholder,
+.message-input::placeholder,
+.subscribe-input::placeholder {
+    color: #eee;
+}
+
+.search-icon {
+    color: #eee;
+    cursor: pointer;
+}
+
+.side-bar hr {
+    border: 1px solid #eee;
+}
+
+.weather-detail-title {
+    color: white;
+}
+
+.humidity-icon,
+.rain-icon,
+.wind-icon {
+    color: #eee;
+}
+
+.weather-details span {
+    margin-left: 10px;
+}
+
+.side-bar .send-btn,
+.side-bar .subscribe-btn {
+    background-color: #eee;
+    color: gray;
+    margin-top: 10px;
+}
+
+.copy-right {
+    font-size: 12px;
+}
+
+.footer .social-media a {
+    color: #eee;
+}
